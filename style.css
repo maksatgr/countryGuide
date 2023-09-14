@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  background-color: #176b87;
+}
+
+.container {
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 75%;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.search__bar {
+  margin-top: 100px;
+  background: transparent;
+}
+
+#country__input {
+  border: none;
+  outline: none;
+  margin-left: 50px;
+  font-size: 1.5em;
+
+  padding: 10px;
+  background: transparent;
+  margin-top: 50px;
+  border-bottom: 2px blue solid;
+}
+#country__input :focus {
+  border-bottom: #337ccf;
+}
+
+#search__button {
+  font-size: 1.5em;
+  background: #337ccf;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#resultant {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.flag-img {
+  width: 150px;
+  height: 100px;
+  float: right;
+  margin-right: 400px;
+}
