@@ -1,2 +1,2 @@
 # countryGuide
-Country Guide App with API
+Country Guide App with API. Javascript
